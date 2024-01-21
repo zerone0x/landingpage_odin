@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: monospace;
+    flex:auto;
+    
+}
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+.intro{
+    background-color: #9fd565;
+    padding: 69px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    
+    
+    }
+.nav ul li a{
+    text-decoration: none;
+    color: dark;
+    background-color: dark;
+    font-size: 17px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* 如何把button排除在外 */
+}
+.main-text h1{
+    font-family:monospace;
+    font-weight:bolder;
+    font-size: 48px;
+}
+.main-text p{
+    font-size: 18px;
+    color:rgb(223, 16, 168);
+}
+button{
+    max-width: 80px;
+    background-color: #3882F6;
+
+}
+
+.main img{
+    min-width: 400px;
+}
+
+.linux_png{
+    display: flex;
+    flex-direction: column;
+
+}
+.linux_png-text ul{
+    display: flex;
+    /* text-decoration: none; */
+    list-style: none;
+    justify-content: space-between;
+}
+
+.linux-text1 img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.linux_png h1{
+    text-align: center;
+}
+
+.linux-text1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 100px 300px; */
+    background-color: beige;
+}
+.quote p{
+    text-align: right;
+    align-items: flex-end;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    color: white;
+
+}
+.welcome button{
+    max-height: 30px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.welcome-img{
+    /* margin: 100px; */
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+}
+
+.footer{
+    text-align: center;
+    background-color:antiquewhite;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
